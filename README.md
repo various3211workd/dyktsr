@@ -1,8 +1,9 @@
 # dyktsr
 
+## dyktsrって何？ What's dyktsr?
+
 ![キャプチャ](https://user-images.githubusercontent.com/43775946/60386182-e9eadd00-9acc-11e9-8ce7-ead3fc3c6ff3.PNG)
 
-## dyktsrって何？ What's dyktsr?
 dyktsrはサンバのリズムを知ってるかい？の略です。  
 入力された文字列をサンバのリズムに変換します。
 
@@ -11,6 +12,7 @@ Convert input string to samba rhythm
 
 ## 使い方 Usage
 
+### 1. 基本的なサンバのリズム  Plane samba rhythm  
 あなたにとって特別な2文字を入れるとコンソールがサンバのリズムを出力します。
 
 The console will output the samba rhythm when you enter two characters that are special to you.
@@ -22,6 +24,7 @@ PS>./dyktsr ホイ
 
 ***
 
+### 2. 色々サンバのリズム  Any samba rhythm
 オプションとして`i`をつけるとアイコンの見た目を指定できます。
 
 You can specify the appearance of the icon by adding `i` as an option.
@@ -33,6 +36,7 @@ PS>./dyktsr カニ -i 🦀
 
 ***
 
+### 3. プエルトリコ  Puerto Rico
 さらにオプションとして`p`をつけるとプエルトリコモードでリズムを刻みます。
 
 If you add `p` as an option, the rhythm will be set in Puerto Rico mode.
@@ -44,7 +48,7 @@ PS>./dyktsr ウキ -pi 🐵
 
 ***
 
-##### よいサンバのリズムを！ Have a nice samba rhythm!
+#### よいサンバのリズムを！ Have a nice samba rhythm!
 
 ## ビルドとインストール Build and Install
 
